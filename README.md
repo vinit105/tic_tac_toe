@@ -1,16 +1,102 @@
-# tic_tac_toe
+# 🎮Tic Tac Toe Flutter App🎮
 
-A new Flutter project.
+A simple Tic Tac Toe game built with Flutter and Dart for two players, featuring background sound. This project demonstrates the use of the Flutter framework along with `flame_audio` for sound effects and `flutter_launcher_icons` for custom app icons.
 
-## Getting Started
+## 🎮Project Structure
 
-This project is a starting point for a Flutter application.
+The project is organized as follows:
 
-A few resources to get you started if this is your first Flutter project:
+tic_tac_toe/   
+│ ├── lib/  
+│ ├── [main.dart](./lib/main.dart)   
+│ └── [home_page.dart](./lib/home_page.dart)  
+│ ├── [pubspec.yaml](./pubspec.yaml)   
+└── README.md  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **`lib/main.dart`**: The entry point of the application.
+- **`lib/home_page.dart`**: The main page where the game is played.
+
+## 🎮Dependencies
+
+This project uses the following external dependencies:
+
+- **`flame_audio: ^2.10.1`**: For playing background sound and sound effects.
+- **`flutter_launcher_icons: ^0.13.1`**: For custom app icons.
+
+## 🎮Getting Started
+
+To get started with the Tic Tac Toe Flutter app, follow these steps:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/tictactoe_flutter.git
+    cd tictactoe_flutter
+    ```
+
+2. **Install dependencies:**
+
+    Ensure you have Flutter installed. Then, run:
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app:**
+
+    You can run the app on an emulator or physical device using:
+
+    ```bash
+    flutter run
+    ```
+
+## 🎮Configuration
+
+1. **Setting up `flutter_launcher_icons`:**
+
+   Configure your app icon in the `pubspec.yaml` file under the `flutter_launcher_icons` section. For example:
+
+    ```yaml
+    flutter_launcher_icons:
+      android: true
+      ios: true
+      image_path: "assets/icon/app_icon.png"
+    ```
+
+   Replace `assets/icon/app_icon.png` with the path to your app icon image.
+
+2. **Playing Background Sound:**
+
+   Make sure to place your audio files in the appropriate assets directory and configure them in `pubspec.yaml`:
+
+    ```yaml
+    flutter:
+      assets:
+        - assets/sounds/background_music.mp3
+    ```
+
+## 🎮Contributing
+
+Feel free to open issues, submit pull requests, or contribute in any way to improve the app.
+
+Contributions are welcome! To contribute:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature/YourFeature).
+- Make your changes.
+- Commit your changes (git commit -am 'Add some feature').
+- Push to the branch (git push origin feature/YourFeature).
+- Create a Pull Request.
+
+### Happy coding!
+## 🎮Screenshots
+
+<div>
+<img alt="ScreenShot" src="./screenshots/demo.png" width="200" />  
+<img alt="ScreenShot" src="./screenshots/demo2.png" width="200" />  
+</div>
+
+## 🎮Demo 
+
+[![demo](https://github.com/vinit105/BMI-Calculator/blob/c3273b2ce95d79bc171160c02df31dec3a940aaa/screenshot_01.png)](https://github.com/user-attachments/assets/89598c27-7250-4957-b192-6d8c380adf6b)
