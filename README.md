@@ -94,9 +94,11 @@ Contributions are welcome! To contribute:
 
 <div>
 <img alt="ScreenShot" src="./screenshots/demo.png" width="200" />  
+
+
 <img alt="ScreenShot" src="./screenshots/demo2.png" width="200" />  
 </div>
 
 ## 🎮Demo 
 
-[![demo](https://github.com/vinit105/BMI-Calculator/blob/c3273b2ce95d79bc171160c02df31dec3a940aaa/screenshot_01.png)](https://github.com/user-attachments/assets/89598c27-7250-4957-b192-6d8c380adf6b)
+[![demo](https://github.com/vinit105/tic_tac_toe/blob/c940220d163e07d4c419d98773fe05f912468784/screenshots/demo.png)](https://github.com/user-attachments/assets/e588e15b-8386-4b6b-b1c8-757035d24655)
